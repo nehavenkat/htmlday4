@@ -26,6 +26,8 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
     <h3>Opening timmings: Everyday 8am to 6pm</h3>
     <h4></h4>
     <body>
+
+        <div class ="All-equal">
     <form action="/action_page.php">
         Name:<br>
         <input type="text" >
@@ -36,6 +38,7 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
         <input type="submit" >
       </form>
       <p>If you click the "Submit" button, your reservation will be conformed</p>
+    </div>
     
       
     <!--/* EXERCISE 2:  
@@ -60,6 +63,14 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
                 }
                 table, th, td {
                               border: 1px solid black;
+                              background: grey;
+                }
+                .All-equal{
+                    background: rgb(231, 90, 9);
+                    margin: 15px;
+                    border: 1px ridge red;
+                    padding: 15px
+
                 }
 </style>
         ​
@@ -71,6 +82,7 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
             Write a section in which you explain a current promotion
         -->
 <section>
+        <div class ="All-equal">
         <h5>Discount for the whole month on </h5>
       <ol>
           <li>Hair cutting</li>
@@ -78,6 +90,7 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
       </ol>
       <p>We have special discounts on the above by our experienced barbers. <br>
         <strong>Book the time as soon as possible.</strong></p>
+    </div>
     </section>
 
     
@@ -85,13 +98,14 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
             Write a section with the address of the shop.
             [OPTIONAL] Link this address to Google Maps page.
         -->
-
+        <div class ="All-equal">
         <address>
     
             Visit us at: HairDenmark.com<br>
             nytrov, 18<br>
             Denmark
             </address>
+            </div>
 ​
         <!-- EXERCISE 6: 
             Write a "Leave Email" form. 
@@ -100,13 +114,14 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
 ​
             [OPTIONAL] On submit click, console log the value of the email
         -->
-
+        <div class ="All-equal">
         <form >
             <p>Enter the valid Email, we shall contacted you soon </p>
             Email address:<br>
             <input type="text" ><br>
             <input type="submit" value="Submit">
           </form>
+        </div>
 ​
         <!-- EXERCISE 7: 
             Create an "book haircut" form.
@@ -120,11 +135,13 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
             Style it as you like it.
             [OPTIONAL] On submit click, console log an object containing Phone Number, Date and Name.
         -->
+        <div class ="All-equal">
         <form >
             Phone number: <input type="number" number="Phone Number" value="mandatory"><br>
             Date: <input type="number" date="dd/mm/yy" value="mandatory"><br>
             <input type="submit" value="Submit">
-            </form>​
+            </form>
+        </div>​
 ​
           <!-- EXERCISE 8: 
             Create a table with the price for the services of the barber shop
@@ -158,7 +175,7 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
             - Phone Number
             - Email (should be a clickable link)
         -->
-
+        <div class ="All-equal">
         <footer>
                 <p>Name: HairDenmark Saloon</p>
                 <p>Address: Nytrov, 18</p>
@@ -166,7 +183,7 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
                 <p>email: <a href="HairDenmark@google.com"> HairDenmark@google.com</a>.</p>
         </footer>
 ​
-
+        </div>
 
 
         <script>
