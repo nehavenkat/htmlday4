@@ -58,6 +58,9 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
                 body{
                     background: brown;
                 }
+                table, th, td {
+                              border: 1px solid black;
+                }
 </style>
         ​
               <!-- EXERCISE 3:
@@ -117,12 +120,36 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
             Style it as you like it.
             [OPTIONAL] On submit click, console log an object containing Phone Number, Date and Name.
         -->
-​
+        <form >
+            Phone number: <input type="number" number="Phone Number" value="mandatory"><br>
+            Date: <input type="number" date="dd/mm/yy" value="mandatory"><br>
+            <input type="submit" value="Submit">
+            </form>​
 ​
           <!-- EXERCISE 8: 
             Create a table with the price for the services of the barber shop
-            
+
         -->
+
+        <table>
+                <tr>
+                  <th>Sercices</th>
+                  <th>Price</th>
+                  
+                </tr>
+                <tr>
+                  <td>Hair Stylling</td>
+                  <td>150 DK</td>
+                </tr>
+                <tr>
+                  <td>Hair Washing</td>
+                  <td>100 DK</td>
+                </tr>
+                <tr>
+                 <td>Hair Cutting</td>
+                 <td>300 DK</td>
+                </tr>
+              </table>
 ​
         <!-- EXERCISE 9: 
             Place here a footer including:
@@ -131,6 +158,13 @@ Note: the form should just be implemented in HTML + CSS, no extra code needed.
             - Phone Number
             - Email (should be a clickable link)
         -->
+
+        <footer>
+                <p>Name: HairDenmark Saloon</p>
+                <p>Address: Nytrov, 18</p>
+                <p>Phone Number: 66 66 66 77</p>
+                <p>email: <a href="HairDenmark@google.com"> HairDenmark@google.com</a>.</p>
+              </footer>
 ​
         <script>
             window.onload = function() {
